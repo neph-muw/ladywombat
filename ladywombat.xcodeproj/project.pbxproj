@@ -7,25 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3910F965F56D96426B3076E /* Pods_ladywombat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFA1FCF73A6EA2FFE52C783 /* Pods_ladywombat.framework */; };
 		E708073C2025D9A100A3BF9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E708073B2025D9A100A3BF9D /* AppDelegate.m */; };
 		E708073F2025D9A100A3BF9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E708073E2025D9A100A3BF9D /* ViewController.m */; };
-		E70807422025D9A200A3BF9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70807402025D9A200A3BF9D /* Main.storyboard */; };
 		E70807442025D9A200A3BF9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E70807432025D9A200A3BF9D /* Assets.xcassets */; };
-		E70807472025D9A200A3BF9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70807452025D9A200A3BF9D /* LaunchScreen.storyboard */; };
 		E708074A2025D9A200A3BF9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E70807492025D9A200A3BF9D /* main.m */; };
+		E7FE4F8020271808008D0B2D /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FE4F7F20271808008D0B2D /* XMLReader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D038F1CFEEB1D2E8A70F3EC /* Pods-ladywombat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ladywombat.release.xcconfig"; path = "Pods/Target Support Files/Pods-ladywombat/Pods-ladywombat.release.xcconfig"; sourceTree = "<group>"; };
+		AA915B4A666E7869BA206BAB /* Pods-ladywombat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ladywombat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ladywombat/Pods-ladywombat.debug.xcconfig"; sourceTree = "<group>"; };
 		E70807372025D9A000A3BF9D /* ladywombat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ladywombat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E708073A2025D9A100A3BF9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E708073B2025D9A100A3BF9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E708073D2025D9A100A3BF9D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E708073E2025D9A100A3BF9D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E70807412025D9A200A3BF9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E70807432025D9A200A3BF9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E70807462025D9A200A3BF9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E70807482025D9A200A3BF9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E70807492025D9A200A3BF9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7FE4F7E20271808008D0B2D /* XMLReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		E7FE4F7F20271808008D0B2D /* XMLReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		FFFA1FCF73A6EA2FFE52C783 /* Pods_ladywombat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ladywombat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +36,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3910F965F56D96426B3076E /* Pods_ladywombat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3343696EE229813C1473EF82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA915B4A666E7869BA206BAB /* Pods-ladywombat.debug.xcconfig */,
+				1D038F1CFEEB1D2E8A70F3EC /* Pods-ladywombat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9181530FCCE01957D40B1315 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFFA1FCF73A6EA2FFE52C783 /* Pods_ladywombat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E708072E2025D99D00A3BF9D = {
 			isa = PBXGroup;
 			children = (
 				E70807392025D9A100A3BF9D /* ladywombat */,
 				E70807382025D9A000A3BF9D /* Products */,
+				3343696EE229813C1473EF82 /* Pods */,
+				9181530FCCE01957D40B1315 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,9 +85,9 @@
 				E708073B2025D9A100A3BF9D /* AppDelegate.m */,
 				E708073D2025D9A100A3BF9D /* ViewController.h */,
 				E708073E2025D9A100A3BF9D /* ViewController.m */,
-				E70807402025D9A200A3BF9D /* Main.storyboard */,
+				E7FE4F7E20271808008D0B2D /* XMLReader.h */,
+				E7FE4F7F20271808008D0B2D /* XMLReader.m */,
 				E70807432025D9A200A3BF9D /* Assets.xcassets */,
-				E70807452025D9A200A3BF9D /* LaunchScreen.storyboard */,
 				E70807482025D9A200A3BF9D /* Info.plist */,
 				E70807492025D9A200A3BF9D /* main.m */,
 			);
@@ -78,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E708074D2025D9A200A3BF9D /* Build configuration list for PBXNativeTarget "ladywombat" */;
 			buildPhases = (
+				3A0C07B74DFF3366C8742516 /* [CP] Check Pods Manifest.lock */,
 				E70807332025D9A000A3BF9D /* Sources */,
 				E70807342025D9A000A3BF9D /* Frameworks */,
 				E70807352025D9A000A3BF9D /* Resources */,
+				0B42230A52AB0E71791F1587 /* [CP] Embed Pods Frameworks */,
+				39DA35D443F121A8B2E7BF2C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,13 +155,65 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E70807472025D9A200A3BF9D /* LaunchScreen.storyboard in Resources */,
 				E70807442025D9A200A3BF9D /* Assets.xcassets in Resources */,
-				E70807422025D9A200A3BF9D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B42230A52AB0E71791F1587 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ladywombat/Pods-ladywombat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ladywombat/Pods-ladywombat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39DA35D443F121A8B2E7BF2C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ladywombat/Pods-ladywombat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A0C07B74DFF3366C8742516 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ladywombat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E70807332025D9A000A3BF9D /* Sources */ = {
@@ -144,30 +222,12 @@
 			files = (
 				E708073F2025D9A100A3BF9D /* ViewController.m in Sources */,
 				E708074A2025D9A200A3BF9D /* main.m in Sources */,
+				E7FE4F8020271808008D0B2D /* XMLReader.m in Sources */,
 				E708073C2025D9A100A3BF9D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		E70807402025D9A200A3BF9D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E70807412025D9A200A3BF9D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E70807452025D9A200A3BF9D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E70807462025D9A200A3BF9D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E708074B2025D9A200A3BF9D /* Debug */ = {
@@ -276,6 +336,7 @@
 		};
 		E708074E2025D9A200A3BF9D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA915B4A666E7869BA206BAB /* Pods-ladywombat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -284,12 +345,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Roman-Mykitchak.ladywombat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		E708074F2025D9A200A3BF9D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D038F1CFEEB1D2E8A70F3EC /* Pods-ladywombat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,7 +360,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Roman-Mykitchak.ladywombat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

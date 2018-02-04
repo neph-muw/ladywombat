@@ -1,0 +1,6 @@
+framework module Pods_ladywombat {
+  umbrella header "Pods-ladywombat-umbrella.h"
+
+  export *
+  module * { export * }
+}
